@@ -3,7 +3,6 @@
 - [Ruby on Rails Technical Interview Questions:](#ruby-on-rails-technical-interview-questions)
   - [Basic](#basic)
       - [1. What is MVC?](#1-what-is-mvc)
-      - [Example:](#example)
       - [2. What is ActiveRecord?](#2-what-is-activerecord)
       - [3. What are callbacks in Rails?](#3-what-are-callbacks-in-rails)
       - [4. What is mass assignment?](#4-what-is-mass-assignment)
@@ -336,7 +335,7 @@ MVC stands for **Model-View-Controller**. It is a design pattern used in Rails t
 - **View**: The presentation layer that displays the data to the user. It is typically HTML or JSON for web apps.
 - **Controller**: Acts as an intermediary between the Model and View. It processes user input, calls the necessary model methods, and renders the appropriate view.
 
-#### Example:
+Example:
 ```
 # Model
 class Post < ApplicationRecord
